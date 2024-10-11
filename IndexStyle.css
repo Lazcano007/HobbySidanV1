@@ -1,0 +1,194 @@
+
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+body{
+
+    color: black;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+
+
+header {
+    text-align: center;
+    background-color: white;
+    position: sticky; 
+     top: 0px;
+}
+
+h1 {
+    background-image: url(https://i.pinimg.com/originals/d9/4e/bc/d94ebc5482cb51814420f5ba3f076020.gif);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    max-width: 100%;
+    border: 7px solid var(--bg-black);
+    border-style: ridge;
+    padding: 3rem;  
+    margin: auto;
+    color: white;
+
+}
+
+
+nav {
+    text-align: center;
+/*   
+    right:0;
+    left: 0; */
+  
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 10px; 
+    display: inline-block;
+    transition: background-color 0.5s ease;
+    border: 2px solid black;
+  
+}
+
+.navbar a:hover {
+    background-color: black; 
+    color: white; 
+}
+
+.musiklist{
+   
+    border-bottom: 3px double rgb(25,3,3);
+    padding-bottom: 10px; 
+}
+/* 
+nav a {
+  
+    padding: 5px 10px; 
+    display: inline-block; 
+    text-decoration:none; 
+    margin: 5px; 
+    color: black;
+    transition: background-color 0,3s ease;
+ 
+}
+
+.nav a:hover{
+
+    background-color: green;
+    color: white;
+        
+    } */
+
+footer{
+    text-align: center;
+    position: fixed;
+    right:0;
+    bottom: 0%;
+    width: 30%;
+    background-color:  white;
+    color:black;
+
+}
+
+.bild{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 1%;
+}
+
+.vid1 {
+  display: flex;
+  justify-content: center;
+  width: 50%; 
+  float: left; 
+  background-color: black;
+  padding: auto 0,25rem;
+  border-radius: 30%;
+
+
+}
+
+.vid2 {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    float: right;
+    background-color: black;
+    padding: auto 0,25rem;
+    border-radius: 30%;
+    
+
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.karta{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+@media (max-width: 900px) {
+    h1 {
+        text-align: center;
+        max-width: 50%;
+        border: 7px solid white;
+        padding: auto;  
+        margin:  auto;
+        color: white;
+    }
+
+    nav {
+        text-align: center;
+    }
+    
+    .navbar a {
+        color: black;
+        text-decoration: none;
+        padding: 10px 10px; 
+        display: inline-block;
+        transition: background-color 0.5s ease;
+        border: 2px solid black;
+    }
+
+    .navbar a:hover {
+        background-color: black; 
+        color: white; 
+    }  
+    
+}
